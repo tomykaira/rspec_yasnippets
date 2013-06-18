@@ -1,0 +1,6 @@
+#name : def mock_ ... end
+#group : definitions
+# --
+def mock_$1(stubs={})
+  @mock_$1 ||= mock_model(${1:$(capitalize text)}, stubs)
+end
